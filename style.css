@@ -7,6 +7,7 @@ body {
     align-items: center;
     justify-content: space-between;
     padding: 2%;
+    margin-bottom: 50px;
 }
 
 .nav a {
@@ -20,4 +21,57 @@ body {
 
 .nav a:hover {
     color: #E43D12
+}
+
+.about-hero {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto auto auto;
+    grid-template-areas:
+        "upperGrid upperGrid"
+        "topGrid topGrid"
+        "leftGrid rightGrid"
+}
+
+.upperGrid {
+    grid-area: upperGrid;
+}
+.topGrid {
+    grid-area: topGrid;
+}
+.leftGrid {
+    grid-area: leftGrid;
+}
+.rightGrid {
+    grid-area: rightGrid;
+}
+
+.about-hero img {
+    padding: 5px;
+    max-width: 70%;
+}
+
+h1 {
+    font-family: "brother-1816", sans-serif;
+    font-weight: 900;
+    font-style: italic;
+}
+
+h3 {
+    font-family: "brother-1816", sans-serif;
+    font-weight: 200;
+    font-style: normal;
+}
+
+p {
+    font-family: forma-djr-micro, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+#name {
+    font-size: 7em;
+    white-space: nowrap;
+    overflow: visible;
+    position: relative;
 }
