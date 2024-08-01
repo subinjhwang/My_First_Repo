@@ -3,6 +3,7 @@
 * {
     margin: 0;
     padding: 0;
+    vertical-align: top;
 }
 
 body {
@@ -62,8 +63,9 @@ body {
 }
 
 .about-hero img {
-    padding: px;
+    margin: auto;
     max-width: 100%;
+    max-height: 100%;
 }
 
 h1 {
@@ -85,7 +87,7 @@ p {
     font-weight: 400;
     font-style: normal;
     font-size: 16px;
-    padding: 10% 10% 10%;
+    padding: 10%;
     line-height: 2;
 }
 
@@ -116,6 +118,21 @@ p {
     border-radius: 10px;
 }
 
-.resume a:hover {
+.resume:hover {
     background-color: #DCCAB1;
+    color: #101010;
+}
+
+.sitemap {
+    background-color: #101010;
+    padding: 20px;
+    text-align: center;
+}
+.sitemap a {
+    text-decoration: none;
+    color: #DCCAB1;
+    margin-left: 30px;
+    font-family: "brother-1816", sans-serif;
+    font-weight: 400;
+    font-style: normal;
 }
